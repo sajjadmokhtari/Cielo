@@ -60,13 +60,9 @@
   display: inline-block;
 }
 .company-logo {
-  width: 300px;              /* بزرگ‌تر برای وضوح بیشتر */
+  width: 156px;              /* بزرگ‌تر برای وضوح بیشتر */
   height: auto;
-  margin-right: 16px;        /* فاصله بیشتر از متن */
   background-color: #fff;    /* زمینه سفید برای وضوح بهتر */
-  padding: 6px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* سایه ملایم برای برجسته‌سازی */
 }
 
 
