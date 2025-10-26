@@ -1,0 +1,96 @@
+/* ==========================
+   Menu Navigation
+========================== */
+.navmenu a {
+  font-size: 19px;        /* کمی بزرگ‌تر از قبل */
+  font-weight: 700;
+  padding: 10px 18px;     /* کمی بزرگ‌تر برای فضای بهتر */
+  color: #111 !important;
+}
+
+.navmenu a:hover,
+.navmenu a.active {
+  color: #d9232d !important; /* رنگ قرمز جذاب */
+}
+
+/* ==========================
+   Hero Section
+========================== */
+#hero {
+  direction: rtl;         /* راست‌چین کردن متن */
+  text-align: center;     /* وسط‌چین کردن */
+}
+
+/* عنوان Hero */
+#hero h1 {
+  font-size: 50px;        /* اندازه مناسب و واضح */
+  font-weight: 800;
+  font-family: 'Vazir', sans-serif;
+  line-height: 1.2;
+}
+
+/* توضیح Hero */
+#hero p {
+  font-size: 24px;               /* بزرگ‌تر از قبل */
+  font-weight: 600;              /* پررنگ‌تر */
+  color: #222;                   /* رنگ تیره‌تر برای وضوح بیشتر */
+  line-height: 2;                /* فاصله بیشتر بین خطوط */
+  font-family: 'Vazir', sans-serif;
+  max-width: 800px;
+  margin: 25px auto 0;
+}
+
+
+/* دکمه شروع */
+.btn-getstarted {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 30px;
+  font-family: 'Vazir', sans-serif;
+}
+
+.btn-getstarted {
+  border: 2px solid #007bff;    /* حاشیه آبی */
+  background-color: #007bff;    /* زمینه آبی */
+  color: #fff;                  /* متن سفید */
+  padding: 12px 25px;           /* کمی کوچک‌تر از قبل */
+  font-weight: 700;
+  font-family: 'Vazir', sans-serif;
+  text-decoration: none;
+  display: inline-block;
+}
+.company-logo {
+  width: 300px;              /* بزرگ‌تر برای وضوح بیشتر */
+  height: auto;
+  margin-right: 16px;        /* فاصله بیشتر از متن */
+  background-color: #fff;    /* زمینه سفید برای وضوح بهتر */
+  padding: 6px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* سایه ملایم برای برجسته‌سازی */
+}
+
+
+.sitename {
+  font-size: 36px;                           /* بزرگ‌تر و چشم‌گیرتر */
+  font-weight: 900;
+  color: #111;                               /* رنگ تیره‌تر برای وضوح بیشتر */
+  font-family: 'Vazir', sans-serif;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);  /* سایه برای برجسته‌سازی متن */
+  margin: 0;                                 /* حذف فاصله اضافی */
+}
+.section-title h2 {
+  font-size: 42px;         /* اندازه بزرگ‌تر برای عنوان */
+  font-weight: 800;
+  color: #111;
+  font-family: 'Vazir', sans-serif;
+  margin-bottom: 10px;
+}
+
+.section-title p {
+  font-size: 20px;         /* توضیح زیر عنوان کمی بزرگ‌تر */
+  font-weight: 500;
+  color: #555;
+  font-family: 'Vazir', sans-serif;
+}
+
+
